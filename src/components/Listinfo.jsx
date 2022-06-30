@@ -21,7 +21,9 @@ const Listinfo = () => {
     })
     
   return (
+    
     <div className='container he'>
+        {}
         <u><h1 >List Information</h1></u>
         
 {data.map(n=>(<h1>{n.email}</h1>))}
